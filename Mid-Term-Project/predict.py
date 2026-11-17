@@ -4,7 +4,7 @@ import pandas as pd
 from flask import Flask
 from flask import request, jsonify
 
-app = Flask('brand-marketing')
+app = Flask('bank-marketing')
 
 model_file = 'model_C=0.1.bin'
 
@@ -25,7 +25,6 @@ def prepare(df):
 
     df['contacted_before'] = (df['pdays']!=-1).astype(int)
     df['pdays'] = df['pdays'].replace(-1, 999)
-    df.day_of_week.describe()
     df.rename(columns = {'day_of_week':'day_of_month'}, inplace=True)
 
     return df
@@ -43,8 +42,8 @@ def predict():
     subscribe = y_pred >= 0.5
 
     result = {
-        'subscription_probability:': float(y_pred),
-        'subscribe:': bool(subscribe)
+        'subscription_probability': float(y_pred),
+        'subscribe': bool(subscribe)
     }
     return jsonify(result)
 
