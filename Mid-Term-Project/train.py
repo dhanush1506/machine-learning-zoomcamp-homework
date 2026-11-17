@@ -3,8 +3,8 @@ import numpy as np
 
 from ucimlrepo import fetch_ucirepo
 
-from sklearn.metrics import roc_auc_score, mutual_info_score
-from sklearn.model_selection import train_test_split, KFold
+from sklearn.metrics import roc_auc_score
+from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.linear_model import LogisticRegression
 
@@ -30,7 +30,6 @@ def prepare(df):
 
     df['contacted_before'] = (df['pdays']!=-1).astype(int)
     df['pdays'] = df['pdays'].replace(-1, 999)
-    df.day_of_week.describe()
     df.rename(columns = {'day_of_week':'day_of_month'}, inplace=True)
 
     return df
