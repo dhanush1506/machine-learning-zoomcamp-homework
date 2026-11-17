@@ -121,4 +121,5 @@ The service takes a client's details as JSON and returns the probability of sign
 
 Output of `predict-test.py` while the Docker container is running:
 
-<img width="861" height="229" alt="Screenshot 2026-11-17 031951" src="https://github.com/user-attachments/assets/31a5c6a0-8d12-4de7-8452-fc8963d991ff" />
+<img width="875" height="203" alt="Screenshot 2026-11-17 104619" src="https://github.com/user-attachments/assets/405385c4-bcd7-46c8-8653-1c20251829e0" />
+
