@@ -9,8 +9,12 @@ scikit-learn = "*"
 gunicorn = "*"
 requests = "*"
 pandas = "*"
+ucimlrepo = "*"
 
 [dev-packages]
+jupyter = "*"
+matplotlib = "*"
+seaborn = "*"
 
 [requires]
 python_version = "3.12"
