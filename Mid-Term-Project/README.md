@@ -123,3 +123,22 @@ Output of `predict-test.py` while the Docker container is running:
 
 <img width="875" height="203" alt="Screenshot 2026-11-17 104619" src="https://github.com/user-attachments/assets/405385c4-bcd7-46c8-8653-1c20251829e0" />
 
+## Cloud deployment
+
+The service is deployed on Render using the Dockerfile in this folder: https://<your-url>.onrender.com
+
+Steps used:
+1. On Render: New → Web Service → connected this GitHub repo
+2. Root Directory: `Mid-Term-Project`, Language: Docker, Instance: Free
+3. Environment variable: `PORT=9696`
+
+The service running on Render:
+
+
+
+Testing the deployed service:
+
+```bash
+PREDICT_URL=https://machine-learning-zoomcamp-homework-1xrg.onrender.com/predict pipenv run python predict-test.py
+```
+
