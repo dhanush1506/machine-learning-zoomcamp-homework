@@ -11,7 +11,7 @@ client = {
     "balance": -41,
     "housing": "yes",
     "loan": "no",
-    "contact": "NA",
+    "contact": None,
     "day_of_week": 2,
     "month": "jun",
     "campaign": 1,
