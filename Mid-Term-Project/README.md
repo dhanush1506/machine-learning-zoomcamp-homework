@@ -134,6 +134,7 @@ Steps used:
 
 The service running on Render:
 
+<img width="930" height="401" alt="Screenshot 2026-11-17 170449" src="https://github.com/user-attachments/assets/797fac96-6ba8-409d-823e-71125c7b6df3" />
 
 
 Testing the deployed service:
@@ -141,4 +142,6 @@ Testing the deployed service:
 ```bash
 PREDICT_URL=https://machine-learning-zoomcamp-homework-1xrg.onrender.com/predict pipenv run python predict-test.py
 ```
+
+<img width="862" height="172" alt="Screenshot 2026-11-17 165307" src="https://github.com/user-attachments/assets/727ebed4-f6c1-4f2e-81e3-dd1afe0d3404" />
 
