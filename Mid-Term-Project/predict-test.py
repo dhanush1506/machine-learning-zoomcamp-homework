@@ -1,6 +1,7 @@
+import os
 import requests
 
-url = 'http://localhost:9696/predict'
+url = os.getenv('PREDICT_URL', 'http://localhost:9696/predict')
 
 client = {
     "age": 35,
