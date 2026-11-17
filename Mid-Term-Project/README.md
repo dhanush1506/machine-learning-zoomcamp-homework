@@ -120,3 +120,5 @@ python predict-test.py
 The service takes a client's details as JSON and returns the probability of signing up and a yes/no decision.
 
 Output of `predict-test.py` while the Docker container is running:
+
+<img width="861" height="229" alt="Screenshot 2026-11-17 031951" src="https://github.com/user-attachments/assets/31a5c6a0-8d12-4de7-8452-fc8963d991ff" />
