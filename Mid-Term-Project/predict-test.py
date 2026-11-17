@@ -14,7 +14,6 @@ client = {
     "contact": "NA",
     "day_of_week": 2,
     "month": "jun",
-    "duration": 169,
     "campaign": 1,
     "pdays": 1,
     "previous": 1,
