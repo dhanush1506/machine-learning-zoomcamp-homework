@@ -125,7 +125,7 @@ Output of `predict-test.py` while the Docker container is running:
 
 ## Cloud deployment
 
-The service is deployed on Render using the Dockerfile in this folder: https://<your-url>.onrender.com
+The service is deployed on Render using the Dockerfile in this folder: https://machine-learning-zoomcamp-homework-1xrg.onrender.com
 
 Steps used:
 1. On Render: New → Web Service → connected this GitHub repo
